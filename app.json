@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "VPN For Everyone",
-    "slug": "VPNApp",
+    "name": "expo ui",
+    "slug": "EXPO_UI",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [

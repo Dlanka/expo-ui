@@ -1,19 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Block, Text } from './Components';
 
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text>hello</Text>
-    </View>
+    <Block row primary>
+      <Text secondary h1>Hello</Text>
+
+    </Block>
+
+
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
